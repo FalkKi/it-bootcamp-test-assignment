@@ -1,0 +1,46 @@
+.scrollBtn {
+   transition: all 0.4s;
+   position: fixed;
+   left: 10px;
+   top: 10px;
+   transform: scale(0);
+
+}
+
+.active {
+   position: fixed;
+   transition: all 0.4s;
+   left: 10px;
+   top: 10px;
+   background-color: #1c87c9;
+   -webkit-border-radius: 60px;
+   border-radius: 15px;
+   border: none;
+   color: #eeeeee;
+   cursor: pointer;
+   display: block;
+   font-size: 20px;
+   padding: 10px 10px;
+   text-align: center;
+   text-decoration: none;
+   transform: scale(1);
+   animation: glowing 1300ms infinite;
+   text-transform: uppercase;
+}
+
+@keyframes glowing {
+   0% {
+      background-color: #2ba805;
+      box-shadow: 0 0 3px #2ba805;
+   }
+
+   50% {
+      background-color: #49e819;
+      box-shadow: 0 0 10px #49e819;
+   }
+
+   100% {
+      background-color: #2ba805;
+      box-shadow: 0 0 3px #2ba805;
+   }
+}

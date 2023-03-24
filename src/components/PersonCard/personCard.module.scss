@@ -1,0 +1,37 @@
+.personContainer {
+   padding: 8px;
+   background-color: #fff;
+   max-width: 300px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   border-radius: 5px;
+   margin-bottom: 50px;
+   cursor: pointer;
+   p{
+      font-weight: 700;
+   }
+}
+
+.skeleton{
+   width: 85%;
+   height: 250px;
+   background-color: gray;
+}
+
+.personImg {
+   margin-bottom: 10px;
+   transition: all 0.4s;
+   width: 85%;
+   height: 220px;
+   object-fit: cover;
+   object-position: center;
+   border-radius: 5px;
+   margin-top: -30px;
+   -webkit-box-shadow: -1px 11px 17px 7px rgba(34, 60, 80, 0.2);
+   -moz-box-shadow: -1px 11px 17px 7px rgba(34, 60, 80, 0.2);
+   box-shadow: -1px 11px 17px 7px rgba(34, 60, 80, 0.2);
+   &:hover{
+      margin-top: -40px;
+   }
+}
